@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!--Icones-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"> 
+    <!--Folha de estilo-->
+    <link rel="stylesheet" href="style_cadastro.css"> 
+    <!--Título-->
+    <title>sing up form</title>
+</head>
+<body>
+    <main>
+        <h1>Criar Conta</h1> <!--Título principal-->
+        <div class="social-media"> <!--imagens social-media-->
+            <a href="#">
+                <img src="../imagens/google.png" alt="Google">
+            </a>
+            <a href="#">
+                <img src="../imagens/facebook.png" alt="Facebook">
+            </a>
+            <a href="#">
+                <img src="../imagens/linkedin.png" alt="Linkedin">
+            </a>
+        </div>
+        <div class="alternative"> <!--Linha divisoria-->
+            <span>OR</span>
+        </div>
+        <!--formulario-->
+        <form action="" id="form">
+            <label for="name" id="labelNome"> <!--Nome-->
+                <input type="text" placeholder="Nome" autocomplete="off" name="nome" id="name" class="required">
+                <span class="span-required">Nome deve ter no mínimo 3 caracteres</span> <!--Requisição nome-->
+            </label>
+            <label for="email" id="labelEmail"> <!--Email-->
+                <input type="email" placeholder="E-mail" autocomplete="off" name="email" id="email" class="required">
+                <span class="span-required">Digite um E-mail válido</span> <!--Requisição email-->
+            </label>
+            <label for="password" id="labelSenha"> <!--Senha-->
+                <input type="password" placeholder="Senha" autocomplete="off"  name="password" id="password" class="required">
+                <span class="span-required">Digite uma senha com no mínimo 8 caracteres</span> <!--Requisição senha-->
+                <i class="bi bi-eye-fill" id="btn-senha" onclick="mostrarSenha()"></i> <!--botão visualizar senha-->
+            </label>
+
+            <button id="btn-cadastrar" onclick="cadastrar(event)">Inscrever-se</button> <!--Botão cadastrar-->
+        </form>
+    </main>
+
+    <section class="images"> <!--Imagem do celular e bolha roxa-->
+        <img src="../imagens/mobile.svg" alt="Mobile">
+        <div class="circle"></div>
+    </section>
+    <script src="../js/sweealert2.js"></script>
+    <script src="main_cadastro.js"></script>
+</body>
+</html> 
