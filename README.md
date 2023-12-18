@@ -3,7 +3,7 @@ Este projeto se destina a oferecer uma interface simples para login e cadastro, 
  
 
 
-                       ------------------------------ Vídeo do Projeto ------------------------------
+                     ------------------------------ Vídeo do Projeto ------------------------------
 
 
 https://github.com/JP-OliveiraDev/clothing_store/assets/141193096/500b4e06-4a16-4b32-a516-e069727db463
