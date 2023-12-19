@@ -1,6 +1,6 @@
    # clothing_store
 
-## 💻 Tecnologias utilizadas 
+## 💻 Linguagens utilizadas 
  ● HTML5   
  ● CSS3    
  ● JavaScript    
